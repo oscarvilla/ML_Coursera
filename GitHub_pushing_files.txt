@@ -7,7 +7,7 @@ To push files to GitHub
 5. Go to (cd) to the local folder. ## Go to a specyfi folder
 6. git init. ## init git here in the folder you currently are
 7. git add . or git add *.* or git add "name_of_the_file_you_want_to_add"## add the new files, sync it
-8. git commit -m "Put here your commit or comment about the actualization"
+8. git commit -m "Put here your commit or comment about the actualization" ##This is important: without this doesn't works
 9. git remote add origin "url of the repo on github" #add a remote origin or the remote folder-repo, sync it
 10. git push -u origin master ##push the updates to the remote folder-repo on master branch
 11. give your credentials
